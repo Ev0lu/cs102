@@ -1,5 +1,5 @@
 import unittest
-from ...src.lab1.calculator import to_number, sub, sum, div, multiply
+from .calculator import to_number, sub, sum, div, multiply
 
 class CalculatorTestCase(unittest.TestCase):
     def test_to_number(self):
